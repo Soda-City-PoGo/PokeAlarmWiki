@@ -54,6 +54,7 @@ Pokemon standard now includes moveset and IVs as of commit [oc1b4](https://githu
 { 
     "type": "gyms",
     "message": {
+		"raid_active_until": 0,
 		"gym_id": 0,
 		"team_id": 0,
 		"guard_pokemon_id": 0,
