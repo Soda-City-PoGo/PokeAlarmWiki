@@ -63,7 +63,7 @@ Pokemon standard now includes moveset and IVs as of commit [oc1b4](https://githu
 		"guard_pokemon_id": 99,
 		"lowest_pokemon_motivation": 0.8795773983001709,
 		"total_cp": 11099,
-                "occupied_since": 1506886787
+                "occupied_since": 1506886787,
 		"enabled": "True",
 		"latitude": 62.790967,
 		"longitude":  76.927920,
