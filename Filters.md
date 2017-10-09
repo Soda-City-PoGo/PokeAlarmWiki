@@ -73,6 +73,7 @@ You may filter on gyms based on team activity, and within a minimum / maximum di
             }
         ]
     },
+
 ```
 
 **Example:  Alert on Instinct defeated gyms within 500m, or all Valor gym activity anywhere**
@@ -139,6 +140,8 @@ Below is a description of all filters available at both Default and Specific Pok
 | `max_iv`   | `"100"` | Maximum percent IV for all Pokemon. 0 to 100.
 | `min_cp`   | `"0"`   | Minimum CP for all Pokemon. 0 to 4760.
 | `max_cp`   | `"4760"` | Maximum CP for all Pokemon. 0 to 4760.
+| `min_level`| `"0"` | Minimum Level for all wild Pokemon. 0 to 30.
+| `max_level`| `"30"` | Maximum Level for all wild Pokemon. 0 to 30.
 | `min_atk` | `"0"` | Value, 0-15, corresponding to the attack IV 
 | `max_atk` | `"15"`| Value, 0-15, corresponding to the attack IV 
 | `min_def` | `"0"` | Value, 0-15, corresponding to the defense IV 
@@ -162,7 +165,7 @@ By default, PokeAlarm will notify on any Pokemon set to `"True"`, at any distanc
         "default": {
             "min_dist":"0", "max_dist":"inf", "min_cp": "0", "max_cp": "4760", "min_iv":"0", "max_iv":"100",
             "min_atk": "0", "max_atk":"15", "min_def": "0", "max_def":"15", "min_sta": "0", "max_sta":"15",
-            "quick_move": null, "charge_move": null, "moveset": null,
+            "min_level": "0", "max_level":"30", "quick_move": null, "charge_move": null, "moveset": null,
             "size": null, "gender": null, "ignore_missing": "False"
         },
         "Bulbasaur":"True",
