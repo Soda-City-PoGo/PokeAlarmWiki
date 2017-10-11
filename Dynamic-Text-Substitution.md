@@ -48,6 +48,7 @@ In order to customize an Alert, you must specify what type of alert you want to 
 The above might produce the following customized pokemon and pokestop notifications:
 
 #### Pokemon notification output
+
 > A GIANT Dragonite jumped out of the grass! Availble until 12:34:56 (14m 59s) remaining!
 
 #### Pokestop notification output
@@ -95,6 +96,7 @@ For what fields (title, message, etc) you have the option to change, please see 
 | `<charge_energy>` | Energy of charge move      |
 | `<id>`| Database encounter_id of the pokemon   |
 | `<form_id>`     | Numerical value for unown form        |
+| `<form>`       | Alphabet form for unown A-Z, !, ?.      |
 | `<gender>`      | Gender of the alerted pokemon          |
 | `<height>`      | Height of the alerted pokemon          |
 | `<weight>`      | Weight of the alerted pokemon          |
